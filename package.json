@@ -1,0 +1,18 @@
+{
+  "name": "course-enrollment-api",
+  "version": "1.0.0",
+  "description": "Course enrollment API with MongoDB and validation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
